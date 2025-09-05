@@ -7,7 +7,14 @@
             bool answer = false;
 
             // code here
-
+            if ((a == 0 && b == 0 && c == 0) || (a > 0 && b > 0 && c > 0) || (a < 0 && b < 0 && c < 0))
+            {
+                answer = true;
+            }
+            else
+            {
+                answer = false;
+            }
             // end
 
             return answer;
@@ -85,4 +92,5 @@
             return answer;
         }
     }
+
 }
