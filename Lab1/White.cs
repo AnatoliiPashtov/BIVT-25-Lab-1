@@ -7,14 +7,7 @@
             bool answer = false;
 
             // code here
-            if (d > 0) { 
-                answer = true;
-            }
-            else
-            {
-                answer = false;
-            }
-            Console.WriteLine(d + " " + answer);
+            
             // end
 
             return answer;
@@ -93,3 +86,4 @@
     }
 
 }
+
